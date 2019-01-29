@@ -256,7 +256,7 @@ def webpage_model(input_shape,mod):
 
 max_len=10
 model = webpage_model((max_len,),mod)
-print(model.summary())')
+print(model.summary())
 
 from keras import optimizers
 adm = optimizers.Adam(lr=0.0001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
